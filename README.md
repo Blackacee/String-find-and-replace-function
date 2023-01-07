@@ -1,2 +1,5 @@
 # String-find-and-replace-function
-JS indexOf() method returns the index of the first occurrence in the string
+
+var string = "Hello, World!";
+console.log( string.indexOf("o") ); // 4
+console.log( string.indexOf("foo") ); // -1
